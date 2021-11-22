@@ -4,6 +4,10 @@
 
 ## Menú fijo
 
+## One-page web
+
+## Botón subir arriba
+
 ## Tarjetas con imagen y texto
 
 ## Tooltip
