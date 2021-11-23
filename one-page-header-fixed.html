@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One page</title>
+    <style>
+      /* reset CSS */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      /**/
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #fff;
+      }
+
+      header {
+        background: rgba(0,0,0,0.9);
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+      }
+
+      /* Navegaión */
+      nav {
+        float: left; /* Desplazamos el nav hacia la izquierda */
+      }
+
+      nav ul {
+        list-style: none;
+      }
+
+      nav ul li {
+        float: left;
+      }
+
+      nav ul li a {
+        display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      nav ul li:hover {
+        background: #3ead47;
+      }
+
+      /* Secciones */
+      section {
+        position: relative;
+        padding-top: 90px;
+      }
+
+      #seccion-1 {
+        background-color: coral;
+        height: 100vh;
+      }
+
+      #seccion-2 {
+        background-color: cornflowerblue;
+        height: 100vh;
+      }
+
+      #seccion-3 {
+        background-color: gold;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#seccion-1">Sección 1</a></li>
+            <li><a href="#seccion-2">Sección 2</a></li>
+            <li><a href="#seccion-3">Sección 3</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="seccion-1">SECCIÓN 1</section>
+      <section id="seccion-2">SECCIÓN 2</section>
+      <section id="seccion-3">SECCIÓN 3</section>
+    </div>
+  </body>
+</html>
