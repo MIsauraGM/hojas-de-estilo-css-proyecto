@@ -1,19 +1,13 @@
 # Hojas de estilo CSS - Snippets - Proyecto
 
-## Menú hamburguesa
+## Menú superior fijo
 
-## Menú fijo
-
-## Breadcrumbs
-
-## One-page web
-
-## Botón subir arriba
-
-## Tarjetas con imagen y texto
+## Menú lateral fijo
 
 ## Tooltip
 
-## Línea del tiempo
+## Caja de diálogo
 
-## Iconos en el footer
+## Scroll suavizado
+
+## Página única
